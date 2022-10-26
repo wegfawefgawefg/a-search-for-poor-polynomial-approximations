@@ -7,6 +7,13 @@ lets find those points through brute force
 sqrt(x^2 + y^2) = a*x + b*y
  */
 
+/*
+TODO:
+- investigate monte carlo being wrong?
+- probably cant tell if solution space is symmetrical or not unless we graph it
+- graph it
+*/
+
 use itertools_num::linspace;
 use kdam::tqdm;
 use rand::Rng;
